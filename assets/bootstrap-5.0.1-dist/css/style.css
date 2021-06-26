@@ -1,0 +1,238 @@
+.Myinfo{
+    margin-top: 60px;
+    box-sizing: border-box;
+    position: relative;
+}
+.Myinfo img{
+   opacity: 0.4;
+   filter: alpha(opacity=40);
+}
+img:hover{
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+.whatever h1{
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 90px;
+    box-sizing: border-box;
+    line-height: 1;
+}
+.About-info{
+    margin-bottom: 30px;
+}
+.About-info p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Experiences{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.Experiences .sub-heading{
+    text-align: center;
+    color: brown;
+}
+.smoothed{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.Experiences .border{
+    height: 4px!important;
+    width: 40px;
+    margin: 10px;
+    border: 1px solid brown!important;
+    display: block;
+    background-color: brown;
+}
+.Experiences h1 .mb-4P{
+    margin-bottom: 2px;
+}
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.first-experiences{
+    display: block;
+    box-sizing: content-box;
+    box-shadow: 1px;
+}
+.first-experiences i{
+    color: burlywood;
+}
+.first-experience{
+    padding: 5px 36px;
+}
+.first-experience h4{
+    font-size: 1.25rem;
+}
+.first-experience h4 a{
+    outline: medium none;
+}
+.first-experience h4 a .browse-btn{
+    outline: medium none;
+    transition: .5s;
+}
+.achievements .card-titlle{
+    padding:5px;
+    margin-bottom: 0;
+    background-color: rgba(168, 166, 166, 0.3);
+}
+.achievements .card-header{
+    padding:5px;
+    margin-top: 0;
+    background-color: rgba(168, 166, 166, 0.3);
+    margin-block-start: 10px;
+    margin-block-end:10px ;
+    margin-inline-end: 10px;
+    margin-inline-start: 10px;
+    border-bottom: none;
+}
+.protofolio{
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+.protofolio .container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.protofolio .subheading{
+    color: brown;
+}
+.protofolio .border{
+    height: 4px!important;
+    width: 40px;
+    margin: 10px;
+    border: 1px solid brown!important;
+    display: block;
+    background-color: brown;
+}
+.protofolio .secondary{
+    position: relative;
+    overflow: hidden;
+}
+.protofolio .text{
+  position: absolute;
+  top: 0;
+  bottom: 37px;
+  left: 10;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s;
+  background-color: burlywood;
+  display: block;
+  box-sizing: border-box;
+}
+.TText{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+.Pricing .subheadings{
+    color: brown;
+    text-align: center;
+}
+.Pricing .border{
+    height: 4px!important;
+    width: 40px;
+    margin: 10px;
+    border: 1px solid brown!important;
+    display: block;
+    background-color: brown;
+    text-align: center;
+}
+.Pricing .btn{
+    color: brown;
+}
+.Pricing .btn:hover{
+    color: brown;
+    border-radius: 20px;
+    background-color: burlywood;
+    transition: .5s;
+}
+.containerfade {
+    position: relative;
+}
+  
+.imagefade {
+    display: block;
+    width: 100%;
+    height: auto;
+}  
+.overlayfade {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 250;
+    width:500;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: wheat;
+}
+  
+.containerfade:hover .overlayfade {
+    opacity: 0.5;
+}
+  
+.textfade {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    white-space:pre-line;
+}
+footer{
+    color: white;
+}
+footer h5{
+    text-transform:uppercase ;
+    font-weight: 800;
+}
+footer p span {
+    font-weight: 300;
+}
+footer ul.social li{
+    display: inline-block!important;
+    font-size: 28px;
+    margin-right: 10px;
+    border: 1px solid white;
+    height:50px ;
+    width:50px ;
+    border-radius: 40%;
+    margin-left: 10px;
+}
+footer ul li a i{
+    position: relative;
+    margin: 10px;
+    color: #ffff;
+}
+footer ul li :hover{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+footer ul li .quick-link {
+    color: burlywood;
+    text-decoration: none;
+}  
+  
